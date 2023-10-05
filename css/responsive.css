@@ -368,11 +368,12 @@
     .tiket-from-box {
         display: flex;
         gap: 12px;
-        flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
+
     .flying-dropdown-box {
         padding: 15px 154px 15px 15px;
     }
@@ -535,13 +536,13 @@
         border-radius: 20px;
         background-color: white;
         margin: 0 auto;
-        min-height: 132vh;
+        min-height: 89vh;
         margin: 90px 0px 120px 0px;
         position: relative;
     }
         .Passenger-box {
           
-            max-width: 361px;
+            max-width: 371px;
         }
         .-tab-search-box {
           
@@ -552,7 +553,7 @@
             top: 95%;
         }
         .flying-dropdown-box {
-            padding: 15px 132px 15px 15px;
+           padding: 15px 63px 15px 15px;
            position: relative;
             max-width: 660.849px;
             height: 102.622px;
@@ -902,6 +903,19 @@ element.style {
         width: 100%;
         min-height: 230vh;
     }
+
+    .flying-dropdown-box {
+        padding: 15px 63px 15px 15px;
+        position: relative;
+        max-width: 660.849px;
+        height: 85.622px;
+    }
+    .flying-box {
+        display: flex;
+        gap: 3px;
+        align-content: center;
+        flex-direction: row;
+    }
 }
 
 @media (max-width: 450px){
@@ -1004,6 +1018,19 @@ p{
     }
     li.menu {
         max-width: 47px;
+    }
+}
+
+@media (max-width: 486px){
+    .flying-dropdown-box {
+        padding: 15px 33px 15px 15px;
+        position: relative;
+        max-width: 622.849px;
+        height: 85.622px;
+    }
+    .celender-flex-box {
+        width: 100%;
+        max-width: 362px;
     }
 }
 @media (max-width: 400px){
@@ -1205,6 +1232,18 @@ section.please-select-section.GetOffer-section.hajj-slider {
                        
                         margin-top: -160px;
                     }
+}
+@media (max-width: 388px){
+    .flying-dropdown-box {
+        padding: 15px 17px 15px 15px;
+        position: relative;
+        max-width: 660.849px;
+        height: 85.622px;
+    }
+    .celender-flex-box {
+        width: 100%;
+        max-width: 350px;
+    }
 }
 @media (max-width: 356px){
     .banner-menu {
